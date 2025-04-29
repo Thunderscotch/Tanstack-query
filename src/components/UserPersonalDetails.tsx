@@ -24,7 +24,7 @@ const userPersonalDetails = () => {
     const handleClick = () => {
         navigate('/Email')
     }
-
+    //want to check the data uncomment below line
     // console.log(data1)
     return(
         <div>
