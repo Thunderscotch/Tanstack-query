@@ -12,8 +12,8 @@ const userEmail = () => {
     
     useEffect(() => {
         if (performance.navigation.type === 1) {
-            // Redirect to initial page
-            navigate("/", { replace: true }); // Replace with your initial route (e.g., "/login")
+            // Redirect to initial page but is deprecated
+            navigate("/", { replace: true }); // Replace with your initial route (e.g., "/")
         }
         if(tempPass === userDetails.password){
             setError(false);
